@@ -1,0 +1,44 @@
+.i-left {
+  display: flex;
+  position: relative;
+  margin-top: 7rem;
+  margin-left: 5rem;
+  /* margin-bottom: 12rem; */
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.i-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.i-name > :nth-child(1) {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.i-name > :nth-child(2) {
+  color: #1e90ff;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 2px;
+}
+
+.i-name > :nth-child(3) {
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.i-right {
+  flex: 1;
+}
+
+#About {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  font-family: Varela Round, sans-serif;
+}

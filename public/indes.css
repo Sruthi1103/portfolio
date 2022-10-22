@@ -1,0 +1,8 @@
+html,
+body {
+  -webkit-text-size-adjust: 100%;
+  font-family: Varela Round, sans-serif;
+  width: auto !important;
+  overscroll-behavior: none !important;
+  overflow-x: hidden !important;
+}

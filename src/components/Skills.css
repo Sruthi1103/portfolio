@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.tag-icons {
+  height: 2.2em;
+  margin-right: 0.2em;
+  margin-bottom: 0.65em;
+}
+/* img,
+svg {
+  width: 2.5rem;
+  vertical-align: middle;
+} */
+
+section h4 {
+  margin: 0;
+}
