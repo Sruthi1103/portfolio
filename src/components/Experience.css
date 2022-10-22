@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -13,7 +13,7 @@ section h6 {
 }
 section h5 {
   margin: 0;
-}
+} */
 
 .col {
   flex: 1 0 0%;
@@ -64,21 +64,21 @@ h6,
   position: relative;
   padding: 15px 20px 15px 70px;
 }
-.row > * {
+/* .row > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
-}
+}*/
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   margin-top: 1rem;
-  /* margin-top: calc(-1 * var(--bs-gutter-y)); */
+  margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }

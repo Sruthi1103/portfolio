@@ -1,5 +1,5 @@
 import React from "react";
-import "./Experience.css";
+import "./Education.css";
 
 const Education = () => {
   return (
@@ -14,14 +14,14 @@ const Education = () => {
         >
           <div className="feature-box">
             <div className="row">
-              <div className="col">
+              <div className="col-md-8 col-xl-9">
                 <h4>Programmer Analyst</h4>
                 <br></br>
               </div>
               <div className="col">
-                <h6 className="text-start" style={{ textAlign: "right" }}>
+                <h5 className="text-start" style={{ textAlign: "right" }}>
                   August 2022 - Present
-                </h6>
+                </h5>
                 <br></br>
               </div>
             </div>
@@ -42,9 +42,9 @@ const Education = () => {
                 <br></br>
               </div>
               <div className="col">
-                <h6 className="text-start" style={{ textAlign: "right" }}>
+                <h5 className="text-start" style={{ textAlign: "right" }}>
                   August 2021 - July 2021
-                </h6>
+                </h5>
                 <br></br>
               </div>
             </div>

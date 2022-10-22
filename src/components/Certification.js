@@ -14,67 +14,65 @@ const Certification = () => {
           <h2 className="expname">Certifications</h2>
         </div>
         <div
-          className="certificate justify-content-center"
+          className="row justify-content-center"
           style={{
             paddingBottom: "1em",
           }}
         >
-          <center>
-            <div className="col-sm-6 col-lg-6">
-              <div className="card clean-card text-center">
-                <img
-                  class="card-img-top w-100 d-block"
-                  src={az2}
-                  alt="azure"
-                ></img>
-              </div>
+          <div className="col-sm-6 col-lg-4">
+            <div className="card clean-card">
+              <img
+                class="card-img-top w-100 d-block"
+                src={az2}
+                alt="azure"
+              ></img>
             </div>
-            <div className="col-sm-6 col-lg-6">
-              <div className="card clean-card text-center">
-                <img
-                  class="card-img-top w-100 d-block"
-                  src={az1}
-                  alt="azure"
-                ></img>
-              </div>
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <div className="card clean-card">
+              <img
+                class="card-img-top w-100 d-block"
+                src={az1}
+                alt="azure"
+              ></img>
             </div>
-            <div className="col-sm-6 col-lg-6">
-              <div className="card clean-card text-center">
-                <img
-                  class="card-img-top w-100 d-block"
-                  src={hsql}
-                  alt="azure"
-                ></img>
-              </div>
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <div className="card clean-card">
+              <img
+                class="card-img-top w-100 d-block"
+                src={hsql}
+                alt="azure"
+              ></img>
             </div>
-            <div className="col-sm-6 col-lg-6">
-              <div className="card clean-card text-center">
-                <img
-                  class="card-img-top w-100 d-block"
-                  src={hint}
-                  alt="azure"
-                ></img>
-              </div>
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <div className="card clean-card">
+              <img
+                class="card-img-top w-100 d-block"
+                src={hint}
+                alt="azure"
+              ></img>
             </div>
-            <div className="col-sm-6 col-lg-6">
-              <div className="card clean-card text-center">
-                <img
-                  class="card-img-top w-100 d-block"
-                  src={py}
-                  alt="azure"
-                ></img>
-              </div>
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <div className="card clean-card ">
+              <img
+                class="card-img-top w-100 d-block"
+                src={py}
+                alt="azure"
+              ></img>
             </div>
-            <div className="col-sm-6 col-lg-6">
-              <div className="card clean-card text-center">
-                <img
-                  class="card-img-top w-100 d-block"
-                  src={rest}
-                  alt="azure"
-                ></img>
-              </div>
+          </div>
+          <div className="col-sm-6 col-lg-4">
+            <div className="card clean-card">
+              <img
+                class="card-img-top w-100 d-block"
+                src={rest}
+                alt="azure"
+              ></img>
             </div>
-          </center>
+          </div>
         </div>
       </div>
     </section>

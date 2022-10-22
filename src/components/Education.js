@@ -19,14 +19,18 @@ const Education = () => {
                 <br></br>
               </div>
               <div className="col">
-                <h6 className="text-start" style={{ textAlign: "right" }}>
+                <h5
+                  className="text-start"
+                  style={{ textAlign: "right", fontWeight: "900" }}
+                >
                   9.06/10 CGPA | August 2017- July 2021
-                </h6>
+                </h5>
                 <br></br>
               </div>
             </div>
             <h5>
               Anna University, Velammal Engineering College , Chennai<br></br>
+              <br></br>
             </h5>
             <p style={{ color: "#636D76", textAlign: "justify" }}>
               Ranked Fourteen among 200 over students in the information
@@ -36,23 +40,6 @@ const Education = () => {
               <br></br>
             </p>
           </div>
-          {/* <div className="college">
-            <span>Anna University, Velammal Engineering College</span>
-            <span>
-              Ranked Fourteen among 200 over students in the information
-              technology department.This Bachelor's program helped me understand
-              the world of computer science and equiped me with skills required
-              for application development & application deployment.
-            </span>
-            <span style={{ float: "left" }}>
-              <span style={{ fontWeight: "bold" }}>Coursework:&nbsp;</span>
-              <span>
-                Programming and Data Structures, Operating Systems, Computer
-                Architecture, Design and Analysis of Algorithms, Software
-                Engineering, Computer Graphics
-              </span>
-            </span>
-          </div> */}
         </div>
       </div>
     </section>
