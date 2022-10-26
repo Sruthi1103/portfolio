@@ -21,7 +21,7 @@ const About = () => {
         </a>
       </div>
       <div className="i-right">
-        <img src={pic} style={{ maxHeight: "400px", width: "300px" }}></img>
+        <img src={pic} style={{ maxHeight: "450px", width: "300px" }}></img>
       </div>
     </section>
   );

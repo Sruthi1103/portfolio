@@ -60,17 +60,19 @@ export const TopBar = () => {
             >
               SKILLS
             </Nav.Link>
-            <Nav.Link eventKey="5" style={{ marginLeft: "30px" }} href="#memes">
+            <Nav.Link
+              eventKey="5"
+              style={{ marginLeft: "30px" }}
+              href="#Projects"
+            >
               PROJECTS
             </Nav.Link>
+
             <Nav.Link
-              eventKey="6"
+              eventKey="7"
               style={{ marginLeft: "30px" }}
-              href="#Certification"
+              href="#contact"
             >
-              CERTIFICATIONS
-            </Nav.Link>
-            <Nav.Link eventKey="7" style={{ marginLeft: "30px" }} href="#memes">
               CONTACT
             </Nav.Link>
           </Nav>

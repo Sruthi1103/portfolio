@@ -6,8 +6,10 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
-import Certi from "./components/Certi";
 import "./components/TopBar";
+import Contact from "./components/Contact";
+import Publications from "./components/Publications";
+import Pro from "./components/Pro";
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
       <Experience />
       <Skills />
       <Certification />
+      <Projects />
+      <Publications />
+      <Contact />
+    
       <Footer />
     </div>
   );
